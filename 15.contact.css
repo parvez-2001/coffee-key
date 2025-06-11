@@ -1,0 +1,65 @@
+.contact {
+    /* background-color: red; */
+    margin: 2rem 0rem;
+    padding: 1rem 0rem;
+}
+
+.contactContainer {
+    /* background-color: blue; */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contactBody {
+    /* background-color: antiquewhite; */
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.contactBlock {
+    /* background-color: chartreuse; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactBox img {
+    /* background-color: black; */
+    width: auto;
+    height: 40px;
+}
+
+.contactBox h2 {
+    /* background-color: aliceblue; */
+    font-size: 50px;
+}
+
+.contactFormBody {
+    /* background-color: crimson; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contactImageBlock {
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactImageBox img {
+    /* background-color: black; */
+    width: 1000%;
+    aspect-ratio: 1/1;
+    padding: 1rem;
+}
+
+.contactFormBlock {
+    /* background-color: darkmagenta; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactFormBox {}
