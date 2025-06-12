@@ -46,7 +46,7 @@ h1 {
 
 h2 {
     font-family: "Merienda", serif;
-    color: #333333;
+    color: #212529;
     font-size: 4rem;
     font-weight: 800;
     line-height: 1;
@@ -55,7 +55,7 @@ h2 {
 
 h6 {
     font-family: "Nunito Sans", serif;
-    color: #333333;
+    color: #212529;
     line-height: 1.5;
     font-size: 2.2rem;
     font-weight: 500;
@@ -75,7 +75,6 @@ p {
 button {
     background-color: var(--primaryColor);
     color: var(--lightColor);
-
     cursor: pointer;
     border: none;
     /* border-radius: 0.5rem; */
@@ -374,13 +373,14 @@ button {
 
 /* Facility code */
 .facility p {
-     font-family: "Nunito Sans", serif;
+    font-family: "Nunito Sans", serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
     margin-bottom: 2rem;
 }
+
 /* Facility code */
 
 /* Popular code */
@@ -405,7 +405,7 @@ button {
 
 /* Contact Icons code */
 .contactIconBox i {
-    border-radius: 50%;
+    border-radius: 80%;
     background-color: #be9c79;
     font-size: 2.5em;
     font-weight: 900;
@@ -445,39 +445,83 @@ button {
         padding: 0rem 1rem;
     }
 
-}
+    .heroSectionBox h1 {
+        font-size: 30px;
+        font-weight: 1000;
+        line-height: 1.0;
+    }
 
-/* Medium devices (tablets, upto 768px and above) */
-/* @media (width >=577px) and (width <=768px) */
-@media (min-width: 577px) and (max-width: 768px) {
+    .heroSectionBox p {
+        font-size: 12px;
+    }
 
-    .grid-3,
-    .grid-4 {
-        grid-template-columns: 1fr 1fr;
-        padding: 0rem 1rem;
+    .menuBox img {
+        width: 510px;
+        height: 510px;
+    }
+
+    .menuCupBox h2 {
+        font-size: 40px;
+        font-weight: 1000;
+        margin: 0px 0px 10px;
+        text-align: center;
+    }
+
+    .menuCupBox p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .menuCupBox button {
+        font-size: 20px;
+        text-align: right;
+    }
+
+    .parvezBox h2 {
+        font-size: 40px;
+        margin: 0px 0px 10px;
+    }
+
+    .facilityMenuBox h6 {
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+
+    .popularSeedBox p {
+        margin: 0px 0px 20px;
+    }
+
+    .galleryImageBody {
+        padding: 0rem 2rem;
+        margin: 1px 15px;
+    }
+
+    .teamChefBody {
+        padding: 2rem 10rem;
+        margin: 1px 15px;
+    }
+
+    .contactIcon h6 {
+        font-size: 20px;
+        margin: 0px 0px 10px;
+    }
+
+    .contactIcon p {
+        margin: 0px 0px 5px;
+    }
+    .CopyRightsBody p {
+        margin: 0px 135px;
     }
 }
 
-/* Large devices (Laptops, upto 992px and above) */
-/* @media (width >=769px) and (width <=992px) */
-@media (min-width: 769px) and (max-width: 992px) {
-    .grid-4 {
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 0rem 1rem;
-    }
-}
+/* TABLET RESPONSIVE CODE */
+@media (min-width: 577px) and (max-width: 768px) {}
 
-/* X-Large devices (large desktops, upto 1200px and above) */
-/* @media (width >=993px) and (width <=1200px) */
-@media (min-width: 993px) and (max-width: 1200px) {
-    /* write code here */
-    /* This will get CSS from Default style.css */
-}
+/* @media (min-width: 769px) and (max-width: 992px) */
+@media (min-width:769px) and (max-width: 992px) {}
 
-/* XX-Large devices (larger desktops, upto 1400px and above) */
-/* @media (width >=1200px) */
-@media (min-width: 1200px) {
-    /* write code here */
-}
+/* @media (min-width: 993px) and (max-width: 1200px) */
+@media (min-width:993px) and (max-width:1200px) {}
 
-/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+/* @media (min-width: 1200px)  */
+@media (width:1200px) {}
