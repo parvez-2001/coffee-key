@@ -242,7 +242,7 @@ a {
     /* left & right Alignment */
 }
 
-.parvezBlock img {
+.headerBlock img {
     width: auto;
     height: 40px;
     margin-bottom: .5rem;
@@ -427,6 +427,10 @@ button {
     color: #be9c79;
 }
 
+.CopyRightsBody p {
+    text-align: center;
+}
+
 /* Contact Icons code */
 /* :::FOOTER Code Ends here::: */
 /* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
@@ -477,7 +481,7 @@ button {
         text-align: right;
     }
 
-    .parvezBox h2 {
+    .headerBox h2 {
         font-size: 40px;
         margin: 0px 0px 10px;
     }
@@ -509,16 +513,92 @@ button {
     .contactIcon p {
         margin: 0px 0px 5px;
     }
-    .CopyRightsBody p {
-        margin: 0px 135px;
-    }
+
 }
 
 /* TABLET RESPONSIVE CODE */
-@media (min-width: 577px) and (max-width: 768px) {}
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .grid-1,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .grid-2 {
+        grid-template-columns: 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .heroSection h1 {
+        font-size: 30px;
+    }
+
+    .menuCupBlock {
+        margin: 0px 20px;
+    }
+
+    .menuCupBlock h2 {
+        margin: 0px 0px 10px;
+    }
+
+    .headerBlock h2 {
+        margin: 0px 0px 10px;
+    }
+
+    .facility h6 {
+        margin: 10px 0px;
+        font-size: 20px;
+    }
+
+    p {
+        margin: 0px 0px 20px;
+    }
+
+    .popularContainer {
+        max-width: 720px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .galleryImageBody {
+        padding: 0rem 2rem;
+        margin: 5px 15px;
+    }
+}
 
 /* @media (min-width: 769px) and (max-width: 992px) */
-@media (min-width:769px) and (max-width: 992px) {}
+@media (min-width:769px) and (max-width: 992px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3 {
+        grid-template-columns: 1fr 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .grid-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0rem 1rem;
+    }
+    .heroSection h1 {
+        font-size: 50px;
+    }
+    .menuCupBox h2 {
+        margin: 0px 0px 10px;
+    }
+    .headerBlock h2 {
+        margin: 0px 0px 10px;
+    }
+    .facility h6 {
+        font-size: 20px;
+        margin: 10px 0px;
+    }
+}
 
 /* @media (min-width: 993px) and (max-width: 1200px) */
 @media (min-width:993px) and (max-width:1200px) {}
