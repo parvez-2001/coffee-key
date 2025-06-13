@@ -464,22 +464,23 @@ button {
         height: 510px;
     }
 
+    .menuCupBox {
+        text-align: center;
+    }
+
     .menuCupBox h2 {
         font-size: 40px;
         font-weight: 1000;
-        margin: 0px 0px 10px;
-        text-align: center;
     }
 
     .menuCupBox p {
         font-size: 12px;
-        text-align: center;
     }
 
     .menuCupBox button {
         font-size: 20px;
-        text-align: right;
     }
+
 
     .headerBox h2 {
         font-size: 40px;
@@ -585,15 +586,19 @@ button {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 0rem 1rem;
     }
+
     .heroSection h1 {
         font-size: 50px;
     }
+
     .menuCupBox h2 {
         margin: 0px 0px 10px;
     }
+
     .headerBlock h2 {
         margin: 0px 0px 10px;
     }
+
     .facility h6 {
         font-size: 20px;
         margin: 10px 0px;
