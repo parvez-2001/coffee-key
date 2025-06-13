@@ -460,7 +460,7 @@ button {
     }
 
     .menuBox img {
-        width: 510px;
+        width: auto;
         height: 510px;
     }
 
@@ -470,7 +470,7 @@ button {
 
     .menuCupBox h2 {
         font-size: 40px;
-        font-weight: 1000;
+        font-weight: 900;
     }
 
     .menuCupBox p {
@@ -502,19 +502,8 @@ button {
     }
 
     .teamChefBox img {
-        /* width: 100%; */
-        /* aspect-ratio: 1/1; */
         max-width: 100%;
         height: auto;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
-    .teamChefBody {
-        padding: 2rem 10rem;
-        margin: 1px 15px;
     }
 
     .contactIcon h6 {
