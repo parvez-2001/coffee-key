@@ -320,6 +320,26 @@ letter-spacing: 0.1rem; */
     margin-left: 20px;
 }
 
+.navBarLinkBlock #iconToggle {
+    cursor: pointer;
+}
+
+.navBarLinkBlock .hamburgerIcon {
+    color: gray;
+    font-size: 2rem;
+    border: 2px solid gray;
+    padding: 0.25rem 0.75rem 0.1rem;
+    border-radius: 0.25rem;
+}
+
+.navBarLinkBlock #iconToggle {
+    display: none;
+}
+
+.navBarLinkBlock .hamburgerIcon {
+    display: none;
+}
+
 /* Navbar code end*/
 
 /* Hero Section code */
@@ -405,13 +425,14 @@ button {
 
 /* Contact Icons code */
 .contactIconBox i {
-    border-radius: 80%;
+    border-radius: 100%;
     background-color: #be9c79;
-    font-size: 2.5em;
-    font-weight: 900;
+    font-size: 3.8rem;
     padding: 15px;
+    height: 70px;
+    width: 70px;
     margin: 1.5rem;
-    color: white;
+    color: #ffffff;
 }
 
 .CopyRightsBody {
@@ -447,6 +468,42 @@ button {
     .grid-4 {
         grid-template-columns: 1fr;
         padding: 0rem 1rem;
+    }
+
+    .navBarLinkBlock .hamburgerIcon {
+        display: block;
+        position: absolute;
+        top: 3.5rem;
+        right: 7rem;
+        cursor: pointer;
+    }
+
+    .navBarLinkBox {
+        flex-direction: column;
+        display: none;
+    }
+
+    #iconToggle:checked~.navBarLinkBox {
+        display: flex;
+
+    }
+
+    #iconToggle:checked~.navBarLinkBox li:hover {
+        background-color: #14476c;
+        cursor: pointer;
+
+    }
+
+    #iconToggle:checked~.navBarLinkBox li:hover a {
+        color: #ffffff;
+        font-weight: 500;
+
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        margin-left: 38rem;
     }
 
     .heroSectionBox h1 {
