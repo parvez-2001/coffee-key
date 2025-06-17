@@ -526,11 +526,6 @@ button {
         font-size: 12px;
     }
 
-    .menuBox figure img {
-        width: auto;
-        height: 510px;
-    }
-
     .menuCupBox {
         text-align: start;
         margin: 0rem 3rem;
@@ -554,8 +549,17 @@ button {
     .headerBox h2 {
         font-size: 40px;
         margin: 0px 0px 30px;
-        /* margin-bottom: 2rem; */
     }
+    .gallery {
+        padding: 0rem 2rem;
+    }
+    .team {
+        padding: 0rem 10rem;
+    }
+    .popular {
+        padding: 0rem 2rem;
+    }
+
 
     .facilityMenuBox h6 {
         font-size: 20px;
@@ -566,30 +570,8 @@ button {
         margin: 0px 0px 20px;
     }
 
-    .popularSeedBox img {
-        width: auto;
-        height: 327px;
-    }
-
-    .galleryImageBody img {
-        /* padding: 0rem 2rem;
-        margin: 1px 15px; */
-        width: auto;
-        height: 374px;
-    }
-
-    .teamChefBox img {
-        width: auto;
-        height: 360px;
-        /* margin: 0rem 2rem; */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        /* padding-left: 2rem; */
-    }
-
     .contactFormBody img {
-        width: 510px;
+        width: 100%;
         height: 700px;
     }
 
