@@ -479,7 +479,7 @@ button {
 
     }
 
-    
+
 
     .navBarLinkBox {
         flex-direction: column;
@@ -526,13 +526,14 @@ button {
         font-size: 12px;
     }
 
-    .menuBox img {
+    .menuBox figure img {
         width: auto;
         height: 510px;
     }
 
     .menuCupBox {
-        text-align: center;
+        text-align: start;
+        margin: 0rem rem;
     }
 
     .menuCupBox h2 {
@@ -544,14 +545,16 @@ button {
         font-size: 12px;
     }
 
-    .menuCupBox button {
-        font-size: 20px;
+    .menuCupBlock {
+        display: flex;
+        align-items: center;
+        justify-content: start;
     }
-
 
     .headerBox h2 {
         font-size: 40px;
-        margin: 0px 0px 10px;
+        margin: 0px 0px 30px;
+        /* margin-bottom: 2rem; */
     }
 
     .facilityMenuBox h6 {
@@ -563,14 +566,21 @@ button {
         margin: 0px 0px 20px;
     }
 
-    .galleryImageBody {
-        padding: 0rem 2rem;
-        margin: 1px 15px;
+    .galleryImageBody img {
+        /* padding: 0rem 2rem;
+        margin: 1px 15px; */
+        width: 510px;
+        height: 374px;
     }
 
     .teamChefBox img {
-        max-width: 100%;
-        height: auto;
+        width: 100%;
+        height: 360px;
+    }
+
+    .contactFormBody {
+        width: 530px;
+        height: 700px;
     }
 
     .contactIcon h6 {
