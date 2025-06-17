@@ -565,17 +565,24 @@ button {
     .popularSeedBox p {
         margin: 0px 0px 20px;
     }
-
+.popularSeedBox img {
+    width: auto;
+    height: 327px;
+}
     .galleryImageBody img {
         /* padding: 0rem 2rem;
         margin: 1px 15px; */
-        width: 510px;
+        width: auto;
         height: 374px;
     }
-
     .teamChefBox img {
-        width: 100%;
+        width: auto;
         height: 360px;
+        /* margin: 0rem 2rem; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding-left: 2rem; */
     }
 
     .contactFormBody img{
