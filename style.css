@@ -480,7 +480,7 @@ button {
 
     .navBarLinkBox {
         flex-direction: column;
-        display: none;
+        /* display: none; */
     }
 
     #iconToggle:checked~.navBarLinkBox {
