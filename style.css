@@ -533,7 +533,7 @@ button {
 
     .menuCupBox {
         text-align: start;
-        margin: 0rem rem;
+        margin: 0rem 3rem;
     }
 
     .menuCupBox h2 {
@@ -578,7 +578,7 @@ button {
         height: 360px;
     }
 
-    .contactFormBody {
+    .contactFormBody img{
         width: 530px;
         height: 700px;
     }
