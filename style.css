@@ -476,11 +476,17 @@ button {
         top: 3.5rem;
         right: 7rem;
         cursor: pointer;
+
     }
+
+    
 
     .navBarLinkBox {
         flex-direction: column;
-        /* display: none; */
+        display: none;
+        width: 100%;
+        /* justify-content: end; */
+        align-items: end;
     }
 
     #iconToggle:checked~.navBarLinkBox {
@@ -489,7 +495,7 @@ button {
     }
 
     #iconToggle:checked~.navBarLinkBox li:hover {
-        background-color: #14476c;
+        /* background-color: #14476c; */
         cursor: pointer;
 
     }
@@ -501,9 +507,13 @@ button {
     }
 
     .links {
+        /* background-color: #be9c79; */
+        /* width: 100%; */
         display: flex;
         flex-direction: column;
-        margin-left: 38rem;
+
+        /* margin-left: 38rem; */
+        /* align-items: end; */
     }
 
     .heroSectionBox h1 {
